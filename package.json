@@ -1,0 +1,27 @@
+{
+  "name": "webgl-project",
+  "version": "1.0.0",
+  "description": "Esto es un proyecto de webgl 2.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarenLopezB/webgl-project.git"
+  },
+  "keywords": [
+    "webgl",
+    "games",
+    "shader",
+    "glsl",
+    "2d",
+    "3d"
+  ],
+  "author": "KarenLopezB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KarenLopezB/webgl-project/issues"
+  },
+  "homepage": "https://github.com/KarenLopezB/webgl-project#readme"
+}
