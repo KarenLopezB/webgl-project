@@ -52,7 +52,7 @@ const main = async ()=>{
             projectionMatrix: mat4.create()
         },
         textures: [
-            new Texture(gl, 'images/webgltexture.png')
+            new Texture(gl, 'images/imagen.png')
         ],
         time: new Time()
     }

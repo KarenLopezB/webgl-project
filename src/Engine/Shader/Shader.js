@@ -1,6 +1,6 @@
     
-import ShaderCompiler from './CompileShader.js.js';
-import ProgramLinker from './ProgramLinker.js.js';
+import ShaderCompiler from './CompileShader.js';
+import ProgramLinker from './ProgramLinker.js';
 
 
 export default class Shader{
