@@ -6,7 +6,7 @@ const port = 3000;
 app.use('/src', express.static('src'));
 app.use('/public', express.static('public'));
 app.use('/shaders', express.static('shaders'));
-app.use('/images', express.static('images'));
+app.use('/Images', express.static('images'));
 
 app.get('/', (req, res)=>{
     res.send('<h1>Hello World Node<h1/>');
