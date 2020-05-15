@@ -12,6 +12,10 @@ app.get('/', (req, res)=>{
     res.send('<h1>Hello World Node<h1/>');
 });
 
+app.get('/rotate', (req, res)=>{
+    res.sendFile(`${__dirname}/public/rotate.htm`);
+});
+
 app.get('/translate', (req, res)=>{
     res.sendFile(`${__dirname}/public/translate.htm`);
 });
